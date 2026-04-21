@@ -60,8 +60,8 @@ export default function Footer() {
         <div className="pt-8 border-t border-warm-800 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-warm-500">
           <p>© {new Date().getFullYear()} Medi Assistant. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-teal-400 transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-teal-400 transition-colors">Terms of Service</a>
+            <a href="/privacy" className="hover:text-teal-400 transition-colors">Privacy Policy</a>
+            <a href="/terms" className="hover:text-teal-400 transition-colors">Terms of Service</a>
           </div>
         </div>
 
